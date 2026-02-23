@@ -2,14 +2,14 @@ import pandas as pd
 import logging
 from sqlalchemy import create_engine
 
-# Logging configuration
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
 USERNAME = "root"
-PASSWORD = "usaid123"   # Replace this
+PASSWORD = "usaid123"  
 HOST = "localhost"
 DATABASE = "ecommerce_db"
 
