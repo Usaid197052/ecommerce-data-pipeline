@@ -1,0 +1,3 @@
+EcommerceDataPipeline.pyproj
+*.pyproj
+/scripts/load_to_mysql.py

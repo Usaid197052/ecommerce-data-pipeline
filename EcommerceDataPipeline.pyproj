@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>686565c6-0c07-4090-9010-018bf41fd625</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>scripts\revenue_analysis.py</StartupFile>
+    <StartupFile>scripts\load_to_mysql.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -34,6 +34,7 @@
     <Folder Include="scripts\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="data\cleaned_ecommerce.csv" />
     <Content Include="data\raw_ecommerce.csv" />
     <Content Include="sql\queries.sql" />
