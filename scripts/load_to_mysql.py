@@ -22,7 +22,7 @@ if __name__ == "__main__":
 
         logging.info("Connection established.")
 
-        
+       
         logging.info("Reading raw CSV file...")
         raw_df = pd.read_csv("data/raw_ecommerce.csv")
 
@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
         logging.info("Raw data loaded successfully.")
 
-    
+     
         logging.info("Reading cleaned CSV file...")
         clean_df = pd.read_csv("data/cleaned_ecommerce.csv")
 
