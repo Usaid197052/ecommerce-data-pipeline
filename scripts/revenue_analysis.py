@@ -2,6 +2,7 @@ import pandas as pd
 import os
 
 base_dir = os.path.dirname(os.path.dirname(__file__))
+
 clean_path = os.path.join(base_dir, "data", "cleaned_ecommerce.csv")
 
 df = pd.read_csv(clean_path)
