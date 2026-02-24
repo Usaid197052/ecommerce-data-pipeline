@@ -13,4 +13,5 @@ revenue_per_product = df.groupby('product')['total'].sum()
 print("\nRevenue per product:\n", revenue_per_product)
 
 top_customers = df.groupby('customer_name')['total'].sum().sort_values(ascending=False).head(3)
+
 print("\nTop 3 Customers:\n", top_customers)
