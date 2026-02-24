@@ -11,6 +11,7 @@ class DataCleaner:
     def __init__(self, file_path):
         self.file_path = file_path
         self.df = None
+        
 
     def load_data(self):
         logging.info("Loading raw data...")
