@@ -1,4 +1,3 @@
--- Revenue per product
 SELECT product, SUM(total) AS revenue
 FROM orders
 GROUP BY product;
